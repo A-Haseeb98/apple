@@ -1,0 +1,299 @@
+*{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;  
+}
+body{
+    background-color: white;
+}
+.header{
+    height: 45px;
+    width: 100%;
+    background-color:  hsla(0, 0%, 0%, 0.82);
+    position: fixed;
+    
+}
+td:hover{
+    color: rgb(255, 255, 255,1) !important;
+}
+
+
+ /* http://apple-web-5e4ae.web.app/ */
+.cov{
+    height: 45px;
+    width: 100%;
+    background-color:#0071E3;
+    color: rgb(255, 255, 255,0.9);
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 45px;
+    text-align: center;
+    }
+.cov > p, .shp > p{
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.shp{
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+    font-size: 14px;
+    background-color: #f5f5f7;
+    color: #1d1d1f;
+    text-align: center;
+}
+.tabhead{
+    margin: auto;
+    font-size: 14px;
+    opacity: 0.8;
+    height: 100%;
+    vertical-align: middle;
+    margin-bottom: -15px;
+}
+.ttp{
+    color: white;
+    width: 30px;
+}
+.headtr>td{
+    color: white;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+.phone{
+    text-align: center;
+    height: 580px;
+    overflow: hidden;
+    margin-bottom: 0px;
+    background-color: #fbfbfd;
+    float: left;
+    width: 100%;
+
+}
+#img1{
+    margin-top: 30px;
+    width: 650px;
+}
+
+
+.mheading{
+    font-size: 53px;
+    margin-top: 40px;
+    color: black;
+}
+h3{
+    font-size: 28px;
+    margin-top: 09px;
+    font-weight: normal;
+}
+a{
+    color: #0071E3;
+    text-decoration: none;
+}
+h4 > a{
+    color: #0071E3;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: normal;
+}
+h3+p{
+    margin-top: 14px;
+    color: rgba(144, 143, 143, 0.8);
+    word-spacing: 1px;
+    font-weight: 545;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+.ipro{
+    margin-top: 0px;
+    background-color:rgb(0, 0, 0);
+    text-align: center;
+    height: 580px;
+    float: left;
+    width: 100%;
+    margin-top: 12px;
+}
+.ipro > h3,.ipro > h1, .halfwatch >h1 {
+    color: white;
+}
+#img20{
+    margin-top: 10px;
+    width: 100%;
+}
+.air{
+    text-align: center;
+    height: 580px;
+    float: left;
+    margin-top: 12px;
+    width: 100%;
+    background-image: url(air.png);
+    background-color: lawngreen;
+    background-size: 100% 780px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+
+.double{
+    float: left;
+    margin-top: 12px;
+    width: 100%;
+    height: 575px;
+    text-align: center;
+    overflow: hidden;
+}
+.halfmen{
+    background-image: url(Capture.PNG);
+    width: 48.8%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin-left: 10px;
+    float: left;
+}
+.dbheading{
+    font-size: 53px;
+    font-weight: bolder;
+    color: white;
+    letter-spacing: 0mm ;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.halfwatch{
+    background-image: url(watch.png);
+    width: 48.8%;
+    margin-right: 10px;
+    float: right;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.hone{
+    margin-top: 10px;
+    width: 48.8%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin-left: 10px;
+    float: left;
+    background-color: rgb(251,251,253);
+
+}
+.h6pic{
+    margin-top: 10px;
+    width: 48.8%;
+    margin-right: 10px;
+    float: right;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-color: rgb(251,251,253);
+
+}
+.music{
+    margin-top: 10px;
+    background-image: url(music.png);
+    width: 48.8%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin-left: 10px;
+    float: left;
+    background-color: rgb(20, 190, 220);
+}
+.tv{
+    margin-top: 10px;
+    background-image: url(mankind.jpg);
+    width: 48.8%;
+    margin-right: 10px;
+    float: right;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.gry{
+    width: 100%;
+    background-color:  #f5f5f7;
+    height: 100%;
+    float: left;
+}
+.last{
+    float: left;
+    background-color:  #f5f5f7;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 13px;
+    font-weight: 500;
+    overflow: visible;
+    color: rgba(144, 143, 143, 0.8);
+    line-height: 1.4em;
+
+}
+
+.tab{
+width: 100%;
+}
+th{
+    text-align: left;
+    color: rgb(83, 83, 85);
+}
+.dbhead{
+margin-top: 45px;
+}
+.wht{
+    margin-top: -18px;
+    
+}
+.vht{
+    margin-top: 26px;
+    
+}
+.dbh3{
+    line-height: 1.0em;
+    font-size: 20px;
+    margin-bottom: -8px;
+}
+
+
+.united{
+    margin-left: 110px;
+}
+.yellow{
+    color: rgb(251,208,57);
+}
+
+.copyright{
+    font-size: 13px;
+    line-height: 3em;
+}
+
+.copyright a{
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+    padding-left: 07px;
+    padding-right: 07px;
+    border-right: 1px solid rgb(180, 178, 178);
+}
+
+.copyright a:hover{
+    text-decoration: underline;
+}
+.change{
+    text-decoration: none;
+}
+.change:hover{
+    text-decoration: underline;
+}
+
+.d{
+    font-size: 17px;
+    margin-right: 0%;
+    padding-right: 0%;
+    ;
+}
+
